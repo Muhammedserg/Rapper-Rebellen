@@ -1,0 +1,425 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+  }
+  
+  nav {
+    padding: 95px 71px 65px 152px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+  }
+  
+  nav .logo {
+    color: #663f28;
+    text-decoration: none;
+    font-size: 67px;
+    line-height: 77px;
+    letter-spacing: 0px;
+    font-family: Retrig;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 81px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #663f28;
+    transition: 0.4s;
+    font-size: 30px;
+  }
+  
+  
+  nav ul li a:hover,
+  .active {
+    color: #a67153;
+    text-decoration: underline;
+  }
+  
+  
+  .content {
+    padding: 0px 152px 95px 152px;
+    min-height: 100vh;
+  }
+  
+  .flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  #Title {
+    font-size: 60px;
+    line-height: 85px;
+    color: #663f28;
+    letter-spacing: 0px;
+    margin-top: 74px;
+    padding-left: 81px;
+  }
+  
+  #Text {
+    font-size: 30px;
+    line-height: 39px;
+    margin-top: 30px;
+    padding-left: 81px;
+    color: #3E3E3E;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    max-height: 450px; /* oder eine andere maximale Höhe, die für Ihren Slider geeignet ist */
+    box-shadow: -30px 30px #a67153;
+    margin: 0 auto;
+    width: 40%; /* Ändern Sie diese Breite nach Bedarf */
+  }
+  
+  .slider-controls{ 
+    margin: 30px;
+  margin-left: 450px;
+;
+
+}
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #a67153;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d4d7d9;
+}
+
+  .logo-fotter {
+    color: #663f28;
+    text-decoration: none;
+    font-size: 67px;
+    line-height: 77px;
+    letter-spacing: 0px;
+    font-family: Retrig;
+    margin-bottom: 150px;
+  }
+  
+  footer {
+    padding: 69px 152px 121px 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F1F3;
+    gap: 18px;
+    flex: 1;
+  
+  }
+  
+  .kontakt {
+    color: #3E3E3E;
+    font-size: 30px;
+    line-height: 53px;
+  }
+  
+  .öffnungszeiten {
+    color: #3E3E3E;
+    font-size: 30px;
+    margin-bottom: 55px;
+    line-height: 53px;
+  }
+  
+  
+  @media(min-width:1187px)and (max-width:1600px) {
+    nav {
+      padding: 85px 54px 55px 125px;
+    }
+  
+    nav .logo {
+      font-size: 57px;
+      line-height: 65px;
+      letter-spacing: 0px;
+    }
+  
+    nav ul li {
+      display: inline-block;
+      margin-right: 71px;
+    }
+  
+    nav ul li a {
+      font-size: 22px;
+      line-height: 29px;
+    }
+  
+    .content {
+      padding: 0px 125px 85px 125px;
+      gap: 0px;
+    }
+  
+    #Title {
+      font-size: 50px;
+      line-height: 65px;
+      letter-spacing: 0px;
+      margin-top: 59px;
+      padding-left: 30px;
+  
+    }
+  
+    #Text {
+      font-size: 22px;
+      line-height: 29px;
+      margin-top: 20px;
+      padding-left: 30px;
+    }
+  
+    #Text {
+      font-size: 22px;
+      line-height: 29px;
+      margin-top: 20px;
+    }
+  
+    img {
+      box-shadow: -25px 25px #a67153;
+    }
+  
+    .logo-fotter {
+      font-size: 57px;
+      line-height: 65px;
+      margin-bottom: 135px;
+      letter-spacing: 0px;
+    }
+  
+    footer {
+      padding: 65px ;
+    }
+  
+    .kontakt {
+      font-size: 22px;
+      line-height: 43px;
+    }
+  
+    .öffnungszeiten {
+      font-size: 22px;
+      margin-bottom: 51px;
+      line-height: 43px;
+    }
+  }
+  
+  
+    @media (min-width:616px)and (max-width: 1187px) {
+      nav .logo {
+        font-size: 39px;
+        line-height: 51px;
+      }
+    
+      nav ul li {
+        margin-right: 40px;
+        margin-left: 40px;
+      }
+    
+      nav ul li a {
+        font-size: 20px;
+        line-height: 34px;
+      }
+    
+      nav {
+        padding: 75px 0px 45px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
+  
+      .content {
+        padding: 0px 82px 45px 82px;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+      }
+    
+    #Title {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 34px;
+      margin-top: 45px;
+      padding-left: 0;
+    }
+  
+    #Text {
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 35px;
+      padding-left: 0;
+    }
+    
+    img {
+      box-shadow: -15px 23px #a67153;
+    }
+  
+    .logo-fotter {
+      font-size: 36px;
+      margin-bottom: 0px;
+    }
+  
+    footer {
+      padding: 75px 82px 75px 82px;
+      flex-direction: column;
+      text-align: center;
+      gap: 21px;
+    }
+  
+  
+    .kontakt {
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+    }
+  
+    .öffnungszeiten {
+      font-size: 20px;
+      margin-bottom: 0px;
+      line-height: 32px;
+      text-align: center;
+    }
+  }
+  
+  
+  @media (min-width:350px)and (max-width: 616px) {
+    nav .logo {
+      font-size: 35px;
+      line-height: 40px;
+      letter-spacing: 0px;
+    }
+  
+    nav ul li {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  
+    nav ul li a {
+      font-size: 16px;
+      line-height: 53px;
+    }
+  
+    nav {
+      padding: 60px 0px 30px 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 0px;
+    }
+  
+    .content {
+      padding: 0px 36px 30px 36px;
+      text-align: center;
+      flex-direction: column;
+      gap: 0px;
+    }
+  
+    img {
+      box-shadow: -15px 23px #a67153;
+    }
+  
+    .texts {
+      text-align: center;
+    }
+  
+    #Title {
+      font-size: 22;
+      margin-top: 30px;
+      line-height: 29px;
+      font-weight: bold;
+      padding-left: 0;
+    }
+  
+    #Text {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 20px;
+      padding-left: 0;
+    }
+  
+    footer {
+      padding: 60px 36px 60px 36px;
+      flex-direction: column;
+      text-align: center;
+      gap: 21px;
+    }
+  
+    .logo-fotter {
+      font-size: 35px;
+      line-height: 40px;
+      margin-bottom: 0px;
+      letter-spacing: 0px;
+  
+    }
+  
+    .kontakt {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .öffnungszeiten {
+      font-size: 16px;
+      margin-bottom: 0px;
+      line-height: 25px;
+    }
+    
+    }
+  
+    .social {
+      display: flex;
+      list-style: none;
+      padding: 20px;
+    }
+    
+    @media (max-width: 767px) {
+      .footer .box .social {
+        justify-content: center;
+      }
+    }
+    
+    .social li {
+      margin-right: 10px;
+    }
+    
+    .social li a {
+      background-color: #313131;
+      color: #b9b9b9;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      
+    }
+    
+    .social .instagram:hover {
+      background-color: #584f4f;
+    }
+    
+    .social .twitter:hover {
+      background-color: #1da1f2;
+    }
+    
+    .social .youtube:hover {
+      background-color: #ff0000;
+    }
+    

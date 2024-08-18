@@ -1,0 +1,155 @@
+<DOCTYPE html>
+    <html lang="de">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="widthz=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scaler=1.0">
+        <meta name="describion" content="Bester Coffee in einer gemütlichen Arbeitsatmosphäre.
+            Bei Work & Coffee können Sie jetzt gratis 
+            online einen Tisch reservieren .">
+        <meta name="keywords" content="Café coffee Kaffee Lernort Arbeitsplatz">
+        <title>Breite und Höhe</title>
+        <script src="js/formular.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="./css/formular.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    </head>
+    <header>
+        <nav>
+            <a class="logo" href="Home.html">Rapper & Rebellen</a>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="slider.html">Überuns</a></li>
+                <li><a href="Menü.html">Menü</a></li>
+                <li><a href="blog.html" >Post</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="flex">
+                <div>
+                    <div class="texts">
+                        <p id="Title">Für fragen bitte melden </p>
+                        <p id="Text">Wenn Sie diese Nummer +49875 328 58 47 anrufen <br>
+                            oder dies Formular ausfüllen, um im Voraus zu reservieren,<br>
+                            müssen Sie nicht anstehen.<br>
+                            Dann können Ihre Zeit ohne Wartezeiten genießen.<br></p>
+                    </div>
+
+                    <div class="box">
+                        <div class="formular">
+                            <form id="reservierungsformular" action="#" method="post" novalidate>
+                                <!-- Vorname Field -->
+                                <div class="icon-photo">
+                                    <label for="vorname"><img class="icon" src="icon/Icon.png"></label>
+                                    <input id="vorname" type="text" name="vorname" placeholder="Vorname" required>
+                                    <label for="vorname"><img class="alert errorIcon" src="icon/alert-triangle.png"></label>
+                                    <label for="vorname"><img class="check erfolgIcon" src="icon/check-circle-2.png"></label>
+                                </div>
+                                <div class="errorDiv" id="vorname-error"></div>
+                            
+                                <!-- Nachname Field -->
+                                <div class="icon-photo">
+                                    <label for="nachname"><img class="icon" src="icon/Icon.png"></label>
+                                    <input id="nachname" type="text" name="nachname" placeholder="Nachname" required>
+                                    <label for="nachname"><img class="alert errorIcon" src="icon/alert-triangle.png"></label>
+                                    <label for="nachname"><img class="check erfolgIcon" src="icon/check-circle-2.png"></label>
+                                </div>
+                                <div class="errorDiv" id="nachname-error"></div>
+                            
+                                <!-- Adresse Field -->
+                                <div class="icon-photo">
+                                    <label for="adresse"><img class="icon" src="icon/Icon.png"></label>
+                                    <input id="adresse" type="text" name="adresse" placeholder="Adresse" required>
+                                    <label for="adresse"><img class="alert errorIcon" src="icon/alert-triangle.png"></label>
+                                    <label for="adresse"><img class="check erfolgIcon" src="icon/check-circle-2.png"></label>
+                                </div>
+                                <div class="errorDiv" id="adresse-error"></div>
+                            
+                                <!-- Postleitzahl Field -->
+                                <div class="icon-photo">
+                                    <label for="postleitzahl"><img class="icon" src="icon/Icon.png"></label>
+                                    <input id="postleitzahl" type="text" name="postleitzahl" placeholder="Postleitzahl" required>
+                                    <label for="postleitzahl"><img class="alert errorIcon" src="icon/alert-triangle.png"></label>
+                                    <label for="postleitzahl"><img class="check erfolgIcon" src="icon/check-circle-2.png"></label>
+                                </div>
+                                <div class="errorDiv" id="postleitzahl-error"></div>
+                            
+                                <!-- Ort Field -->
+                                <div class="icon-photo">
+                                    <label for="ort"><img class="icon" src="icon/Icon.png"></label>
+                                    <input id="ort" type="text" name="ort" placeholder="Ort" required>
+                                    <label for="ort"><img class="alert errorIcon" src="icon/alert-triangle.png"></label>
+                                    <label for="ort"><img class="check erfolgIcon" src="icon/check-circle-2.png"></label>
+                                </div>
+                                <div class="errorDiv" id="ort-error"></div>
+                            
+                                <!-- E-Mail Field -->
+                                <div class="icon-photo">
+                                    <label for="email"><img class="icon" src="icon/Icon.png"></label>
+                                    <input id="email" type="email" name="email" placeholder="E-Mail" required>
+                                    <label for="email"><img class="alert errorIcon" src="icon/alert-triangle.png"></label>
+                                    <label for="email"><img class="check erfolgIcon" src="icon/check-circle-2.png"></label>
+                                </div>
+                                <div class="errorDiv" id="email-error"></div>
+                            
+                                <!-- Kontaktierungsgrund Field -->
+                                <div class="icon-photo-margin">
+                                    <label for="kontaktierungsgrund"><img class="icon" src="icon/Icon.png"></label>
+                                    <textarea id="kontaktierungsgrund" name="kontaktierungsgrund" rows="2" placeholder="Kontaktierungsgrund" required></textarea>
+                                    <label for="kontaktierungsgrund"><img class="alert errorIcon" src="icon/alert-triangle.png"></label>
+                                    <label for="kontaktierungsgrund"><img class="check erfolgIcon" src="icon/check-circle-2.png"></label>
+                                </div>
+                                <div class="errorDiv" id="kontaktierungsgrund-error"></div>
+                            
+                                <input class="btn" type="submit" value="Reservieren">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bild">
+                    <div>
+                        <img class="widht" src="img/brian-lundquist-6nW_H_gIYBA-unsplash (1).jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="Logo-fotter" href="Home.html">Rapper & Rebellen
+
+        </a>
+        <p class="kontakt"><b>KONTAKTIERE UNS </b><br>
+            +49875 328 58 47<br>
+            Bredeneyer Straße 56<br>
+            42677 Wuppertal</p>
+        <p class="öfnungszeiten"><b>ÖFFNUNGSZEITEN</b><br>
+            Mo-Fr:08:30–22:00<br>
+            Sa-So:10:00–22:00
+        </p>
+        <ul class="social">
+            <li>
+                <a href="https://www.instagram.com/_sragzz/" class="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,634 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+  }
+  
+  nav {
+    padding: 95px 71px 65px 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  nav .logo {
+    color: #663f28;
+    text-decoration: none;
+    font-size: 67px;
+    line-height: 77px;
+    letter-spacing: 0px;
+    font-family: Retrig;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 81px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #663f28;
+    transition: 0.4s;
+    font-size: 30px;
+  }
+  
+  nav ul li a:hover,
+  .active {
+    color: #a67153;
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 0px 152px 95px 152px;
+    min-height: 100vh;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 40px;
+  }
+  
+  .texts {
+    align-self: center;
+  }
+  
+  #Title {
+    font-size: 60px;
+    color: #663f28;
+    line-height: 85px;
+    letter-spacing: 0px;
+  }
+  
+  #Text {
+    font-size: 30px;
+    line-height: 39px;
+    font-family: Bilo;
+    margin-top: 30px;
+    margin-bottom: 65px;
+    color: #3E3E3E;
+  }
+  
+  .icon-photo {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #663f28;
+    width: 80%;
+  }
+  
+  .icon-photo-margin {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-bottom: 2px solid #663f28;
+  }
+  
+  .icon {
+    width: 37px;
+    height: 37px;
+    margin-right: 38px;
+  }
+
+
+  input {
+    display: block;
+    margin: 39px 0px;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+
+  
+  ::placeholder {
+    color: #3E3E3E;
+  }
+  
+  .btn {
+    width: 20%;
+    border-radius: 40px;
+    border: 0;
+    font-size: 30px;
+    line-height: 39px;
+    padding: 17px 30%;
+    color: white;
+    background-color: #663f28;
+    box-shadow: 0 0 5px black;
+    font-family: Bilo;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-top: 9%;
+  }
+  
+  .btn:hover {
+    background-color: #a67153;
+  }
+
+  .errorDiv{
+    color: red;
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+  }
+  
+  .icon{
+    position: relative;
+    
+  }
+  
+.alert,.check{
+    position: absolute;
+    display: none;
+
+
+}
+
+textarea{
+  width: 80%;
+  font-size: 30px;
+  margin-top: 39px;
+  border: none;
+  outline: none;
+  flex-wrap: wrap;
+    display: flex;
+}
+
+
+.sichtbar{
+    display: block;
+}
+
+  .widht {
+    width: 529px;
+    height: 792px;
+  }
+  
+  .bild {
+    box-shadow: -30px 30px #a67153;
+    margin-top: 113px;
+    align-self: center;
+  }
+  
+  .logo-fotter {
+    color: #663f28;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 77px;
+    font-family: Retrig;
+    margin-bottom: 150px;
+  }
+  
+  footer {
+    padding: 95px 152px 110px 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F1F3;
+    gap: 18px;
+    font-family: Bilo;
+  }
+
+  .kontakt {
+    color: #3E3E3E;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Bilo;
+    line-height: 53px;
+  }
+  
+  .öffnungszeiten {
+    color: #3E3E3E;
+    font-size: 30px;
+    margin-bottom: 55px;
+    letter-spacing: 2px;
+    line-height: 53px;
+    font-family: Bilo;
+  }
+  
+  @media(min-width:1187px)and (max-width:1600px) {
+    nav {
+      padding: 85px 54px 55px 125px;
+    }
+
+  
+    nav .logo {
+      font-size: 57px;
+      line-height: 65px;
+      letter-spacing: 0px;
+    }
+  
+    nav ul li {
+      display: inline-block;
+      margin-right: 71px;
+    }
+  
+    nav ul li a {
+      font-size: 22px;
+      line-height: 29px;
+    }
+  
+    .content {
+      padding: 0px 125px 85px 125px;
+    }
+  
+    .texts {
+      align-self: center;
+    }
+  
+    #Title {
+      font-size: 50px;
+      line-height: 65px;
+    }
+  
+    #Text {
+      font-size: 22px;
+      line-height: 29px;
+      margin-bottom: 40px;
+    }
+  
+    .btn {
+      font-size: 22px;
+      line-height: 29px;
+      padding: 15px 30%;
+    }
+  
+    .icon {
+      width: 27px;
+      height: 27px;
+      margin-right: 30px;
+    }
+  
+    input {
+      margin: 30px 0px;
+      font-size: 22px;
+      line-height: 29px;
+    }
+
+    .errorDiv{
+      font-size: 22px;
+      line-height: 29px;
+    }
+  
+    textarea{
+     
+      font-size: 22px;
+      line-height: 29px;
+     
+      
+    }
+    .widht {
+      width: 399px;
+      height: 598px;
+    }
+  
+    .bild {
+      box-shadow: -20px 20px #a67153;
+    }
+  
+    .logo-fotter {
+      font-size: 57px;
+      line-height: 65px;
+      margin-bottom: 135px;
+    }
+  
+    footer {
+      padding: 65px 125px 111px 125px;
+    }
+  
+  
+    .kontakt {
+      font-size: 22px;
+      line-height: 43px;
+    }
+  
+    .öffnungszeiten {
+      font-size: 22px;
+      margin-bottom: 51px;
+      line-height: 43px;
+    }
+  
+  }
+  
+  @media (min-width:616px)and (max-width: 1187px) {
+  
+    nav .logo {
+      font-size: 39px;
+      line-height: 51px;
+    }
+  
+    nav ul li {
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+  
+    nav ul li a {
+      font-size: 20px;
+      line-height: 34px;
+    }
+  
+    nav {
+      padding: 75px 0px 59px 0px;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .content {
+      padding: 0px 82px 59px 82px;
+    }
+  
+    .flex {
+      flex-direction: column;
+      gap: 0px;
+    }
+  
+    .texts {
+      text-align: center;
+      align-self: none;
+    }
+  
+    #Title {
+      font-weight: bold;
+      font-size: 26px;
+      margin-top: 50px;
+      line-height: 34px;
+    }
+  
+    #Text {
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 35px;
+      margin-bottom: 45px;
+    }
+  
+    .box {
+      display: flex;
+      justify-content: center;
+      width: 85%;
+    }
+  
+    .icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 25px;
+    }
+  
+    .icon-photo {
+      width: 150%;
+    }
+  
+    input {
+      margin: 30px 0px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .errorDiv{
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    textarea{
+      font-size: 20px;
+      line-height: 25px;
+      
+    }
+
+    .icon-photo-margin {
+      width: 150%;
+     
+    }
+  
+    .btn {
+        width: 40%;
+      font-size: 20px;
+      line-height: 25px;
+      padding: 14px 55%;
+      margin-top: 20%;
+    }
+  
+    .widht{
+      width: 219px;
+      height: 272px;
+    }
+  
+    .bild {
+      box-shadow: -15px 15px #a67153;
+      margin-top: 0px;
+      order: -1;
+    }
+  
+    .logo-fotter {
+      font-size: 36px;
+      margin-bottom: 0px;
+    }
+  
+    footer {
+      padding: 75px 82px 75px 82px;
+      flex-direction: column;
+      text-align: center;
+      gap: 21px;
+    }
+  
+    .kontakt {
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+    }
+  
+    .öffnungszeiten {
+      font-size: 20px;
+      margin-bottom: 0px;
+      line-height: 32px;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width:350px)and (max-width: 616px) {
+    nav .logo {
+      font-size: 35px;
+      line-height: 40px;
+      letter-spacing: 0px;
+    }
+  
+    nav ul li {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  
+    nav ul li a {
+      font-size: 16px;
+      line-height: 53px;
+    }
+  
+    nav {
+      padding: 60px 16px 20px 16px;
+      flex-direction: column;
+      gap: 0px;
+    }
+  
+    .content {
+      padding: 0px 0px 39px 0px;
+    }
+  
+  
+    .flex {
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .texts {
+      text-align: center;
+    }
+  
+    #Title {
+      line-height: 29px;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+  
+    #Text {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  
+    .icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 20px;
+    }
+  
+    .icon-photo {
+      width: 100%;
+    }
+  
+    input {
+      margin: 28px 0px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    .errorDiv{
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    textarea{
+      font-size: 16px;
+      line-height: 20px;
+      
+    }
+
+    .icon-photo-margin {
+      width: 100%;
+      
+    }
+  
+    .btn {
+    width: 50%;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 10px 70px;
+      margin-top: 40px;
+    }
+  
+    .bild {
+      order: -1;
+      box-shadow: -10px 10px #a67153;
+      margin-top: 0px;
+    }
+  
+    .widht {
+      width: 173px;
+      height: 217px;
+    }
+  
+    .box {
+      display: flex;
+      justify-content: center;
+    }
+  
+    footer {
+      padding: 60px 36px 60px 36px;
+      flex-direction: column;
+      text-align: center;
+      gap: 21px;
+    }
+  
+    .logo-fotter {
+      font-size: 35px;
+      line-height: 40px;
+      margin-bottom: 0px;
+      letter-spacing: 0px;
+    }
+  
+    .kontakt {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .öffnungszeiten {
+      font-size: 16px;
+      margin-bottom: 0px;
+      line-height: 25px;
+    }
+  }
+  .social {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .box .social {
+      justify-content: center;
+    }
+  }
+  
+  .social li {
+    margin-right: 10px;
+  }
+  
+  .social li a {
+    background-color: #313131;
+    color: #b9b9b9;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    
+  }
+  
+  .social .instagram:hover {
+    background-color: #584f4f;
+  }
+  
+  .social .twitter:hover {
+    background-color: #1da1f2;
+  }
+  
+  .social .youtube:hover {
+    background-color: #ff0000;
+  }
+  

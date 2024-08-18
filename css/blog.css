@@ -1,0 +1,443 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+  }
+  
+  nav {
+    padding: 95px 71px 65px 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  nav .logo {
+    color: #663f28;
+    text-decoration: none;
+    font-size: 67px;
+    line-height: 77px;
+    letter-spacing: 0px;
+    font-family: Retrig;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 81px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #663f28;
+    transition: 0.4s;
+    font-size: 30px;
+  }
+  
+  
+  nav ul li a:hover,
+  .active {
+    color: #a67153;
+    text-decoration: underline;
+  }
+  
+  
+img{
+    width: 30%;
+    height: auto;
+    
+}
+
+#blogpost-container {
+    padding: 0px 152px 0px 152px;
+    min-height: 100vh;
+}
+
+.blogpost-title {
+font-size: 60px;
+color: #663f28;
+line-height: 85px;
+letter-spacing: 0px;
+margin-top: 140px;
+}
+
+.blogpost-text {
+  font-size: 30px;
+  line-height: 39px;
+  margin-top: 55px;
+  margin-bottom: 72px;
+  color: #3E3E3E;
+}
+
+.blogpost {
+  display: flex;
+  margin-bottom: 125px;
+}
+
+.blogpost .image {
+  flex: 1;
+ 
+}
+
+.blogpost .text {
+  flex: 2;
+  padding-right: 180px;
+}
+
+  .logo-fotter {
+    color: #663f28;
+    text-decoration: none;
+    font-size: 67px;
+    line-height: 77px;
+    letter-spacing: 0px;
+    font-family: Retrig;
+    margin-bottom: 150px;
+  }
+  
+  footer {
+    padding: 69px 152px 121px 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F1F3;
+    gap: 18px;
+    flex: 1;
+  
+  }
+  
+  .kontakt {
+    color: #3E3E3E;
+    font-size: 30px;
+    line-height: 53px;
+  }
+  
+  .öffnungszeiten {
+    color: #3E3E3E;
+    font-size: 30px;
+    margin-bottom: 55px;
+    line-height: 53px;
+  }
+
+  @media(min-width:1187px)and (max-width:1600px) {
+    nav {
+      padding: 85px 54px 55px 125px;
+    }
+  
+    nav .logo {
+      font-size: 57px;
+      line-height: 65px;
+      letter-spacing: 0px;
+    }
+  
+    nav ul li {
+      display: inline-block;
+      margin-right: 71px;
+    }
+  
+    nav ul li a {
+      font-size: 22px;
+      line-height: 29px;
+    }
+
+
+    img{
+      width: 40%;
+      
+  }
+  
+  #blogpost-container {
+    padding: 0px 125px 0px 125px;
+     
+  }
+  
+  .blogpost-title {
+    font-size: 50px;
+    line-height: 65px;
+    margin-top: 60px;
+    letter-spacing: 0px;
+  }
+  
+  .blogpost-text {
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 45px;
+    margin-bottom: 65px;
+  }
+  
+  .blogpost {
+    margin-bottom: 110px;
+  }
+  
+  .blogpost .text {
+    padding-right: 160px;
+  }
+  
+    .logo-fotter {
+      color: #663f28;
+      text-decoration: none;
+      font-size: 67px;
+      line-height: 77px;
+      letter-spacing: 0px;
+      font-family: Retrig;
+      margin-bottom: 150px;
+    }
+
+    .logo-fotter {
+        font-size: 57px;
+        line-height: 65px;
+        margin-bottom: 135px;
+        letter-spacing: 0px;
+      }
+    
+      footer {
+        padding: 65px 125px 111px 125px;
+      }
+    
+      .kontakt {
+        font-size: 22px;
+        line-height: 43px;
+      }
+    
+      .öffnungszeiten {
+        font-size: 22px;
+        margin-bottom: 51px;
+        line-height: 43px;
+      }
+}
+
+@media (min-width:616px)and (max-width: 1187px) {
+    nav .logo {
+      font-size: 39px;
+      line-height: 51px;
+    }
+  
+    nav ul li {
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+  
+    nav ul li a {
+      font-size: 20px;
+      line-height: 34px;
+    }
+  
+    nav {
+      padding: 75px 0px 45px 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .blogpost {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 59px;
+  }
+
+  .blogpost .image {
+      order: -1; /* Stelle das Bild vor den Text */
+  }
+
+  .blogpost .text {
+      text-align: center;
+      padding-right: 0px;
+  }
+
+  img{
+    width: 40%;
+    
+}
+
+#blogpost-container {
+  padding: 0px 42px 0px 42px;
+   
+}
+
+.blogpost-title {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.blogpost-text {
+  font-size: 20px;
+    line-height: 25px;
+    margin-top: 35px;
+    margin-bottom: 54px;
+    text-align: center;
+}
+  
+    .logo-fotter {
+        font-size: 36px;
+        margin-bottom: 0px;
+      }
+    
+      footer {
+        padding: 75px 82px 75px 82px;
+        flex-direction: column;
+        text-align: center;
+        gap: 21px;
+      }
+    
+      .kontakt {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+      }
+    
+      .öffnungszeiten {
+        font-size: 20px;
+        margin-bottom: 0px;
+        line-height: 32px;
+        text-align: center;
+    
+      }
+}
+
+
+@media (min-width:350px)and (max-width: 616px) {
+    nav .logo {
+      font-size: 35px;
+      line-height: 40px;
+      letter-spacing: 0px;
+    }
+  
+    nav ul li {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  
+    nav ul li a {
+      font-size: 16px;
+      line-height: 53px;
+    }
+  
+    nav {
+      padding: 60px 0px 30px 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 0px;
+    }
+  
+    .blogpost {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 39px;
+  }
+
+  .blogpost .image {
+    order: -1; /* Stelle das Bild vor den Text */
+}
+
+  .blogpost .text {
+    text-align: center;
+      padding-right: 0px;
+  }
+
+  img{
+    width: 40%;
+    
+}
+
+#blogpost-container {
+  padding: 0px 16px 0px 16px;
+   
+}
+
+.blogpost-title {
+  font-weight: bold;
+  line-height: 29px;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.blogpost-text {
+  font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+  
+
+    footer {
+        padding: 60px 36px 60px 36px;
+        flex-direction: column;
+        text-align: center;
+        gap: 21px;
+      }
+    
+      .logo-fotter {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 0px;
+        letter-spacing: 0px;
+    
+      }
+    
+      .kontakt {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    
+      .öffnungszeiten {
+        font-size: 16px;
+        margin-bottom: 0px;
+        line-height: 25px;
+      }
+}
+.social {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .footer .box .social {
+    justify-content: center;
+  }
+}
+
+.social li {
+  margin-right: 10px;
+}
+
+.social li a {
+  background-color: #313131;
+  color: #b9b9b9;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  
+}
+
+.social .instagram:hover {
+  background-color: #584f4f;
+}
+
+.social .twitter:hover {
+  background-color: #1da1f2;
+}
+
+.social .youtube:hover {
+  background-color: #ff0000;
+}

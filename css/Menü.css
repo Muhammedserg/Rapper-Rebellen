@@ -1,0 +1,442 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+}
+
+nav {
+  padding: 95px 71px 65px 152px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+nav .logo {
+  color: #663f28;
+  text-decoration: none;
+  font-size: 67px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  font-family: Retrig;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 81px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #663f28;
+  transition: 0.4s;
+  font-size: 30px;
+}
+
+nav ul li a:hover,
+.active {
+  color: #a67153;
+  text-decoration: underline;
+}
+
+.content {
+  padding: 0px 152px 95px 152px;
+  min-height: 100vh;
+ display: flex;
+}
+
+.flex{
+flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  margin: 0px -199px 95px 0px;
+}
+
+.column {
+  text-align: center;
+  margin-right: 12%;
+}
+
+nav ul li a:hover,
+.active {
+  color: #a67153;
+  text-decoration: underline;
+}
+
+#Title {
+  font-size: 60px;
+  line-height: 85px;
+  color: #663f28;
+}
+
+#Text {
+  font-size: 30px;
+  line-height: 39px;
+  color: #3E3E3E;
+  margin-top: 30px;
+  padding-bottom: 65px;
+}
+
+.column img {
+  padding-bottom: 24px;
+  width: 100%;
+}
+
+.logo-fotter {
+  color: #663f28;
+  text-decoration: none;
+  font-size: 67px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  font-family: Retrig;
+  margin-bottom: 150px;
+}
+
+footer {
+  padding: 69px 152px 121px 152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0F1F3;
+  gap: 18px;
+  flex: 1;
+}
+
+.kontakt {
+  color: #3E3E3E;
+  font-size: 30px;
+  line-height: 53px;
+}
+
+.öfnungszeiten { 
+  color: #3E3E3E;
+  font-size: 30px;
+  margin-bottom: 55px;
+  line-height: 53px;
+}
+
+@media(min-width:1187px)and (max-width:1600px) {
+  nav {
+    padding: 85px 54px 55px 125px;
+  }
+
+  nav .logo {
+    font-size: 57px;
+    line-height: 65px;
+    letter-spacing: 0px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 71px;
+  }
+
+
+  nav ul li a {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+.content {
+  padding: 0px 70px 45px 130px;
+}
+
+.row {
+  margin: 0 -30px  ;
+  justify-content: center;
+}
+
+.column {
+  margin-right: 120px;
+}
+
+#Title {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+#Text {
+  font-size: 22px;
+  line-height: 29px;
+  margin-top: 45px;
+  padding-bottom: 85px;
+
+}
+
+.column img {
+  padding-bottom: 20px;
+}
+
+.logo-fotter {
+  font-size: 57px;
+  line-height: 65px;
+  margin-bottom: 135px;
+  letter-spacing: 0px;
+}
+
+footer {
+  padding: 65px;
+}
+
+.kontakt {
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.öfnungszeiten {
+  font-size: 22px;
+  margin-bottom: 51px;
+  line-height: 43px;
+}
+
+}
+
+@media (min-width:616px)and (max-width: 1187px) {
+
+  nav .logo {
+    font-size: 39px;
+    line-height: 51px;
+  }
+
+  nav ul li {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  nav {
+    padding: 75px 0px 45px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 42px 0px 42px;
+  }
+
+  .row {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+
+  .texts {
+    text-align: center;
+    align-self: none;
+  }
+
+  #Title {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: bold;
+  }
+
+  #Text {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+
+  .column img {
+    padding-bottom: 12px;
+    width: 60%;
+  }
+
+  .logo-fotter {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  footer {
+    padding: 75px 82px 75px 82px;
+    flex-direction: column;
+    text-align: center;
+    gap: 21px;
+  }
+
+
+  .kontakt {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .öfnungszeiten {
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
+@media (min-width:350px)and (max-width: 616px) {
+  nav .logo {
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0px;
+  }
+
+  nav ul li {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    line-height: 53px;
+  }
+
+
+  nav {
+    padding: 60px 0px 30px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .row {
+    display: flex;
+    margin: 30px -12% 30px -12%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+  }
+
+  .texts {
+    text-align: center;
+    align-self: none;
+  }
+
+  #Title {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: bold;
+  }
+
+  #Text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .column img {
+    padding-bottom: 8px;
+    width: 83px;
+  }
+
+
+  footer {
+    padding: 60px 36px 60px 36px;
+    flex-direction: column;
+    text-align: center;
+    gap: 21px;
+  }
+
+  .logo-fotter {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+
+  }
+
+  .kontakt {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .öfnungszeiten {
+    font-size: 16px;
+    margin-bottom: 0px;
+    line-height: 25px;
+  }
+}
+
+
+
+.social {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .footer .box .social {
+    justify-content: center;
+  }
+}
+
+.social li {
+  margin-right: 10px;
+}
+
+.social li a {
+  background-color: #313131;
+  color: #b9b9b9;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  
+}
+
+.social .instagram:hover {
+  background-color: #584f4f;
+}
+
+.social .twitter:hover {
+  background-color: #1da1f2;
+}
+
+.social .youtube:hover {
+  background-color: #ff0000;
+}
